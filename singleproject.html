@@ -1,0 +1,64 @@
+<div class="row cm-bck">		
+	<div class="col-12 cm-text">
+		<h2>{{current_project.name}}</h2>
+		<p>{{current_project.description}}</p>
+	</div>
+
+	<div class="col-6">
+		<div class="cm-steps" id="cm-steps-nav">
+			<ul class="nav nav-tabs nav-fill" role="tablist">
+				<li class="cm-step nav-item" ng-repeat="x in current_project.steps track by $index">
+					<a class="nav-link" data-toggle="tab" href="#step{{$index}}" role="tab" ng-class="{active: $index==0}">
+						<h2>{{x.title}}</h2>
+						<p>{{x.short_desc}}</p>
+					</a>
+				</li>	
+			</ul>
+		</div>		
+	</div>
+	<div class="col-6 cm-step-details tab-content">
+		<div class="tab-pane cm-pr-step" id="step{{$index}}" role="tabpanel" ng-repeat="x in current_project.steps track by $index" ng-class="{active: $index==0}">
+			<h2>Step {{$index + 1}}</h2>
+			<img ng-src="{{x.picsrc}}">
+			<p>{{x.long_desc}}</p>
+			<div class="row cm-used-time" ng-show="$index + 1 == current_project_steps">
+				<div class="col-6">
+					<h5>Used:</h5>
+					<ul>
+						<li ng-repeat="z in current_project.tools">{{z}}</li>
+					</ul>
+				</div>
+				<div class="col-6">
+					<h5>Time:</h5>
+					<ul>
+						<li>{{current_project.time_total}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="cm-project-remarks" ng-show="current_project.additional_remarks">
+	<div class="row">
+		<div class="col-8 col-sm9 col-md-10">
+			<div class="cm-project-text">
+				<h2>Additional remarks</h2>
+				<p>{{current_project.additional_remarks}}</p>
+			</div>
+		</div>
+		<div class="col-4 col-sm-3 col-md-2 cm-dbl-fill">
+			<div>
+				<div id="cm-full-width">
+					<div class="square">
+						<div>
+							<img ng-src="dist/svg/saturnus yellow.svg">
+						</div>
+						<img ng-src="dist/svg/saturnus dark.svg">
+						<img ng-src="dist/svg/saturnus yellow.svg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

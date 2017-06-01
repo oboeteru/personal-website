@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 500" style="enable-background:new 0 0 1000 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#404857;}
+	.st3{fill:none;stroke:#404857;stroke-width:8;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#404857;stroke-width:11;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#404857;stroke-width:11;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1_1_" class="st0">
+	<g class="st1">
+		<g>
+			<rect x="16" class="st2" width="12" height="235"/>
+		</g>
+		<g>
+			<rect x="16" y="267" class="st2" width="12" height="235"/>
+		</g>
+		<ellipse class="st3" cx="22" cy="249.5" rx="16" ry="16.5"/>
+	</g>
+	<path class="st4" d="M641.5,47.5h-179l-99,145.5c0,0-267,0-304.5,0s-36.5,36.5-36.5,36.5"/>
+	<polyline class="st4" points="140.1,196 260.5,367.5 665.5,367.5 	"/>
+	<polyline class="st4" points="452.1,367.5 572.5,249.5 864.5,249.5 	"/>
+</g>
+<g id="Layer_1_copy">
+	<g>
+		<g>
+			<rect x="29" class="st2" width="12" height="235"/>
+		</g>
+		<g>
+			<rect x="29" y="267" class="st2" width="12" height="235"/>
+		</g>
+		<ellipse class="st3" cx="35" cy="249.5" rx="16" ry="16.5"/>
+	</g>
+	<path class="st5" d="M35.5,229.5c0,0,4.6-38.7,25.8-39.3c21.2-0.7,138-1.2,138-1.2l68.2,88.5H374h81.5"/>
+	<line class="st5" x1="96.7" y1="189" x2="221.5" y2="55.5"/>
+	<polyline class="st5" points="324.7,277.5 465.1,137.1 768.5,137.1 	"/>
+	<path class="st5" d="M412.5,301.5"/>
+	<path class="st5" d="M382,277.5c0,0,30.5-2,30.5,31s0,76,0,76l-114,80"/>
+</g>
+<g id="Layer_1_copy_2" class="st0">
+	<g class="st1">
+		<g>
+			<rect x="16" class="st2" width="12" height="235"/>
+		</g>
+		<g>
+			<rect x="16" y="267" class="st2" width="12" height="235"/>
+		</g>
+		<ellipse class="st3" cx="22" cy="249.5" rx="16" ry="16.5"/>
+	</g>
+	<path class="st4" d="M22.5,228.5c0,0-3-32,32.5-32.5s194.5-0.5,194.5-0.5l96,75h114l87-84h98h88"/>
+	<polyline class="st4" points="571.7,184.5 662.6,93.6 603.5,93.5 	"/>
+	<line class="st4" x1="674.3" y1="184.5" x2="763.4" y2="95.4"/>
+	<polyline class="st4" points="459.5,272.5 549.5,362.5 624.5,362.5 694.5,292.5 	"/>
+	<polyline class="st4" points="381,272.5 322.5,351.5 109.5,351.5 	"/>
+	<polyline class="st4" points="164.3,192.6 237.5,110.5 435.5,110.5 	"/>
+</g>
+<g id="Layer_1_copy_3" class="st0">
+	<g class="st1">
+		<g>
+			<rect x="16" class="st2" width="12" height="235"/>
+		</g>
+		<g>
+			<rect x="16" y="267" class="st2" width="12" height="235"/>
+		</g>
+		<ellipse class="st3" cx="22" cy="249.5" rx="16" ry="16.5"/>
+	</g>
+	<path class="st4" d="M22.5,233.5c0,0,2-38,37.5-37.5s429.5,0,429.5,0L600.8,84.8h158.8h100"/>
+	<polyline class="st4" points="637.5,89.5 745.5,250.5 867.5,249.5 	"/>
+	<polyline class="st4" points="250.5,199.5 414.5,363.5 698.5,363.5 	"/>
+	<polyline class="st4" points="110.5,193.5 279.5,24.5 441.5,24.5 	"/>
+	<polyline class="st4" points="523,363.5 432.3,454.3 180.5,454.3 	"/>
+</g>
+</svg>

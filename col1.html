@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-12 cm-article" ng-repeat="row in articles.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))">
+		<div class="thumbnail">
+			<img ng-src="{{row.picsrc}}" />
+			<div class="caption">
+				<h3 class="cm-clear">{{row.title}}</h3>
+				<p>{{row.text}}</p>
+				<a href="#" class="btn cm-more-btn" role="button">More</a>
+			</div>
+		</div>	
+	</div>
+</div>

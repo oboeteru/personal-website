@@ -1,0 +1,59 @@
+<div ng-controller="CmProjects">
+	<div class="container cm-container">
+		<div class="container cm-stats-container">
+			<div ng-repeat="z in cmtools track by $index">
+				<div class="cm-icon-cnt">
+					<div class="cm-icon-load"></div>
+					<img class="cm-icon img-fluid" src="{{z[1]}}">
+				</div>
+				<div id={{'id'+$index}} class="cm-stat-num">{{z[0]}}</div>
+				<div class="cm-stat-name">{{z[2]}}</div>
+			</div>
+		</div>
+	</div>
+			
+	<div class="container cm-container" id="cm-time-metro">
+		<div>
+			<h2>Time reversing metro</h2>
+		</div>
+		<div class="row">
+			<div class="col-1 col-md-2 hidden-xs-down"></div>
+			<div class="col-11 col-md-10">
+				<img src="dist/svg/metro/metro-s.svg"/>
+			</div>
+		</div>
+		<div class="row" ng-repeat="d in cmprojects | orderBy:'-date_finished' track by $index ">
+			<div class="col-1 col-md-2 hidden-xs-down">
+				<h3>{{d.date_finished | date:'d MMMM y'}}</h3>
+			</div>
+			<div class="col-11 col-md-10">
+				<img src="dist/svg/metro/metro{{($index + 1) % 5}}.svg"/>
+				
+				<div class="cm-stats-ballon reveal">
+					<div class="row">
+						<div class="col-12 col-lg-8">
+							<div>
+								<h3>{{d.name}}</h3>
+								<p>{{d.description | limitTo: 250}}{{d.description.length >= 200 ? '...' : ''}}</p>
+								<div class="row">
+									<div class="col-6">
+										<p class="hidden-sm-up">{{d.date_finished | date:'d MMMM y'}}</>
+									</div>
+									<div class="col-6">
+										<a class="btn cm-btn-metro" href="#" role="button">More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 hidden-md-down">
+							<img class="img-fluid" src={{d.main_image}}/>
+						</div>
+					</div>
+				</div>
+				<img src="dist/svg/metro/metro-long.svg" class="hidden-sm-up"/>
+				<img src="dist/svg/metro/metro-long.svg" class="hidden-xs-up"/>
+			</div>
+		</div>
+		
+	</div>
+</div>

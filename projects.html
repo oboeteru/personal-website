@@ -1,0 +1,16 @@
+<div ng-controller="CmProjects" id="top">
+	<singleproject></singleproject>
+	<div class="cm-other-projects">
+		<h2>Previous projects</h2>
+		<p>This defines the alignment along the main axis. It helps distribute extra free space left over when either all the flex items on a line are inflexible.</p>
+		<div class="row" id="cm-search-bar">
+			<label><input placeholder=" Search by keywords" ng-model="search.keywords"></label>
+		</div>
+		<div class="row">
+			<a class="col-12 cm-project-tile" ng-repeat="x in cmprojects | filter:search" ng-click="choose_project(x.id)">
+				<h4>{{x.name}} {{x.id}}</h4>
+				<p>{{x.description | limitTo: limit}}{{x.description.length > (limit-1) ? '...' : ''}}</p>
+			</a>
+		</div>
+	</div>
+</div>
